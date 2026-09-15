@@ -1,0 +1,32 @@
+# Unreal Engine
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+.vscode/
+.idea/
+*.VC.db
+*.VC.VC.opendb
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.user
+*.userprefs
+*.tmp
+*.log
+
+# Build/package output
+Build/Receipts/
+Build/Windows/FileOpenOrder/
+StagedBuilds/
+Packaging/
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local editor automation output
+Scripts/Editor/__pycache__/

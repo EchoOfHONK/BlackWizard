@@ -1,0 +1,3 @@
+BlackWizard / Shattered Sanctum UE5 Context Pack
+Version: 2.0-ue5
+Engine baseline: Unreal Engine 5.8.x
