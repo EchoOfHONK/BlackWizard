@@ -1,26 +1,19 @@
 # Reference Index — UE5 Migration
 
-## Source concept boards
+## Versioned concept previews
 
-`source/01_core_visual_direction.png`  
-Palette, protagonist silhouette, gothic ruin language, Lightning contrast and overall mood.
+`previews/01_core_visual_direction.jpg`  
+Optimized review preview for palette, protagonist silhouette, gothic ruin language, Lightning contrast and overall mood.
 
-`source/02_environment_concepts.png`  
-Sanctuary/tower/catacomb/battlement motifs and traversal-scale intent.
+`previews/02_environment_concepts.jpg`  
+Optimized review preview for sanctuary/tower/catacomb/battlement motifs and traversal-scale intent.
 
-`source/03_character_animation_reference.png`  
-Pose/animation intent only; not a production sprite sheet.
+`previews/03_character_animation_reference.jpg`  
+Optimized review preview for pose/animation intent only; **not** a production sprite sheet.
 
-`source/04_artifact_reference.png`  
-Visible relic/attachment language. Only Heart of the Storm, Broken Seraph and Thunder Spine are canonical in the vertical slice.
+The high-resolution concept boards remain design-source material; the repository deliberately keeps compact review previews plus deterministic UE5 technical reinterpretations so the normal clone stays lightweight. Production source art should be added through Git LFS according to `docs/UE5_ASSET_PIPELINE.md`.
 
-`source/05_enemy_reference.png`  
-Role-readable silhouettes for melee/ranged/shield/elite and storm-boss direction.
-
-`source/06_ui_reference.png`  
-HUD framing, bars, artifact slots, weapon icon, combo and boss-bar language.
-
-The early external game screenshot is not redistributed in this public repository.
+The early external game screenshot used as inspiration is not redistributed in this public repository.
 
 ## UE5 technical visual reinterpretations
 
@@ -30,7 +23,7 @@ The early external game screenshot is not redistributed in this public repositor
 
 `ue5/03_character_rig.svg` — Paper 2D character plane, weapon/artifact/VFX anchors.
 
-`ue5/04_artifact_attachments.svg` — visible attachment strategy for the three prototype artifacts.
+`ue5/04_artifact_attachments.svg` — visible attachment strategy for Heart of the Storm, Broken Seraph and Thunder Spine.
 
 `ue5/05_enemy_roles.svg` — silhouette/readability target for four standard roles and mini-boss.
 
@@ -38,8 +31,10 @@ The early external game screenshot is not redistributed in this public repositor
 
 `ue5/07_combat_lab.svg` — intended vertical-slice route/map layout.
 
-These SVGs are technical mockups, not final concept art.
+`ue5/08_ue5_showcase.jpg` — compact visual overview showing the intended Unreal Engine 5 presentation, character, environments, artifacts, enemies, magic/VFX, HUD and editor organization.
+
+These files are technical/concept references, not production game assets.
 
 ## Regeneration prompts
 
-See `ART_GENERATION_PROMPTS.md` for production-oriented prompts to create new UE5-specific concept boards when image generation is available.
+See `ART_GENERATION_PROMPTS.md` for production-oriented prompts to create new UE5-specific concept boards.
